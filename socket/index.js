@@ -12,7 +12,7 @@ export const server = createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://cheerful-torte-a00401.netlify.app",
+    origin: "http://localhost:5173",
     method: ["GET", "DELETE", "POST", "PUT"],
     credentials: true,
   },
